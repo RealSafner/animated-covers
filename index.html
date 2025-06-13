@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Pages Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>animated-covers</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-top: 2em;
+      border-bottom: 2px solid #444;
+      padding-bottom: 0.3em;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✅ ";
+      color: #1db954;
+    }
+
+    code {
+      background: #1e1e1e;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    pre {
+      background: #1e1e1e;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+
+  <h1>animated-covers</h1>
+  <p><strong>Animated song covers for Spotify, powered by Spicetify Extensions.</strong><br>
+  An enhanced alternative to the default Canvas feature — without regional or technical limitations.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Available in all regions</strong><br>No more "Canvas isn't supported in your country" — this works globally.</li>
+    <li><strong>More songs with animation</strong><br>You decide which tracks get animated covers. Total control.</li>
+    <li><strong>Enhanced covers</strong><br>Add animated visuals not just from Spotify, but even <strong>Apple Music</strong>, or your own custom designs.</li>
+    <li><strong>We listen to your feedback</strong><br>You want a feature, a fix, or a new vibe? Open an issue — your opinion matters here.</li>
+  </ul>
+
+  <h2>How It Works</h2>
+  <p>
+    The <code>animatedCover.js</code> extension replaces the static album image with a <code>&lt;video&gt;</code> element for selected tracks.<br>
+    Works in both <strong>main view</strong> and <strong>full-screen (TV)</strong> mode.<br>
+    You manage everything via a simple <code>videoMap</code>.
+  </p>
+
+  <h2>Installation</h2>
+  <p><strong>First Way:</strong></p>
+  <ul>
+    <li>Install <em>'Animated Covers'</em> from Spicetify marketplace</li>
+  </ul>
+
+  <p><strong>Second Way:</strong></p>
+  <ul>
+    <li>Copy <code>animatedCover.js</code> to your Spicetify Extensions folder (e.g., <code>C:\Users\AppData\Roaming\spicetify\Extensions</code>)</li>
+    <li>Edit your <code>config-xpui.ini</code> and add this line under <code>[Extensions]</code>: <code>animatedCover.js</code></li>
+    <li>Apply the changes: <code>spicetify apply</code> (in PowerShell)</li>
+  </ul>
+
+  <h2>Let Me Know If You'd Like</h2>
+  <ul>
+    <li>A nice <strong>project banner</strong> for the top of the README</li>
+    <li>A minimal <strong>preview GIF/video</strong></li>
+    <li>A <strong>translation version</strong> (e.g. EN + UA dual-language support)</li>
+  </ul>
+
+  <p>I'm happy to help polish it! 💚</p>
+
 </body>
 </html>
