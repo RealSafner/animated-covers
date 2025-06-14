@@ -38,12 +38,3 @@ Second Way:
 1. Copy `animatedCover.js` to your Spicetify Extensions folder (for example: 'C:\Users<YourUsername>\AppData\Roaming\spicetify\Extensions')
 2. Edit your `config-xpui.ini` and add this line under `[Extensions]`: 'animatedCover.js'
 3. Apply the changes: 'spicetify apply' (type this in PowerShell)
-
----
-
-Let me know if you'd like:
-- a nice **project banner** for the top of the README
-- a minimal **preview GIF/video**
-- translation version (e.g. EN + UA dual-language support)
-
-I'm happy to help polish it!
