@@ -36,5 +36,7 @@ First Way:
 
 Second Way:
 1. Copy `animatedCovers.js` to your Spicetify Extensions folder (for example: 'C:\Users<YourUsername>\AppData\Roaming\spicetify\Extensions')
-2. Edit your `config-xpui.ini` and add this line under `[Extensions]`: 'animatedCovers.js'
+2. Edit your `config-xpui.ini` and in `[AdditionalOptions]` tab type 'animatedCovers.js' in `extensions`
 3. Apply the changes: 'spicetify apply' (type this in PowerShell)
+
+**Made with ❤️ by Safner**
